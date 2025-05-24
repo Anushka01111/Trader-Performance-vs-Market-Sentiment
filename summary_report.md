@@ -1,42 +1,42 @@
-REPORT: Insights from Visualizations on Sentiment vs Trader Performance
-I. Market Sentiment Frequency
+# 📊 Project Summary Report
 
-1) Visualization:
+## 🗂️ Project Title
+Bitcoin Market Sentiment vs Trader Performance
 
-➜Number of Fear vs Greed Days (Bar chart)
+## 📅 Date
+May 2025
 
-2) Insight:
+## 👨‍💻 Author
+- Anushka Roy
+- www.linkedin.com/in/anushkaroy1111
 
-➜The market spent the most days in "Greed". ➜"Extreme Fear" occurred least frequently.
+---
 
-3) Observation:
+## 📌 Objective
+To analyze how Bitcoin market sentiment (Fear & Greed Index) influences trader performance using data from Hyperliquid.
 
-➜The tallest bar is labeled "Greed", indicating the highest count of days. ➜Bars for "Fear" and "Extreme Greed" are moderately tall. ➜"Extreme Fear" has a significantly shorter bar, confirming low frequency.
+---
 
-II. Trader PnL Distribution by Sentiment
+## 🔍 Key Analyses
+- Correlation between sentiment scores and average daily returns
+- Sentiment-based trader behavior patterns
+- Performance under different sentiment conditions
 
-1) Visualization:
+---
 
-➜Average Trader PnL Distribution: Fear vs Greed (Boxplot)
+## 🧠 Insights
+- High fear often coincided with more conservative trading behavior.
+- Greed sentiment periods showed increased trading volume and risk-taking.
+- Sentiment was a weak predictor of performance, but useful for clustering trader types.
 
-2) Insight:
+---
 
-➜Median PnL values were relatively stable across sentiments. ➜Wider spread and outliers were more noticeable in Greed and Extreme Greed, indicating both high profits and large losses.
+## 📊 Visualizations
+- Line plot of sentiment vs PnL
+- Histogram of PnL distributions during "Fear" vs "Greed" periods
+- Scatter plots showing trends
 
-3) Observation:
+---
 
-➜Boxes (IQR) are narrow and similar in height, suggesting stable medians. ➜Whiskers and dots (outliers) are more spread out for Greed and Extreme Greed. ➜Extreme Fear has narrower spread, implying less variance.
-
-III. Total Trade Volume by Sentiment
-
-1) Visualization:
-
-➜Total Trade Volume: Fear vs Greed (Bar chart with error bars)
-
-2) Insight:
-
-➜Highest total trade volume occurred during Fear. ➜Volume dropped significantly in Extreme Fear and Extreme Greed.
-
-3) Observation:
-
-➜"Fear" bar is tallest (≈ 3.5e8), even taller than Greed. ➜"Extreme Fear" and "Extreme Greed" bars are short, indicating low volume. ➜Error bars suggest high variance in trade volume during Greed and Fear.
+## 📌 Conclusion
+Sentiment analysis adds value in understanding market psychology, but trader success remains largely individual-dependent.
